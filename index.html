@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <base href="/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PAYGATE</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/angular-toastr@2/dist/angular-toastr.tpls.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/angular-toastr@2/dist/angular-toastr.css">
+</head>
+<script>
+  
+</script>
+
+<body ng-app="myApp" ng-controller="myCtrl"  >
+<style>
+    .loader {
+        border: 10px solid #f3f3f3;
+    
+    border-top: 10px solid #3498db;
+    
+    border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        animation: spin 2s linear infinite;
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .mainDiv {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    /* justify-content: space-evenly; */
+    }
+
+    span {
+        margin-top: 2rem;
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+</style>
+<div class="mainDiv">
+    <div class="loader"></div>
+    <span>Please wait while we are processing your request..</span>
+    <span style="font-size: 1rem;">Do not close this page</span>
+</div>
+
+
+</body>
+
+</html> 
